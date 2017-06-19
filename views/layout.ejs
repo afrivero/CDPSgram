@@ -16,12 +16,35 @@
     <h1><a href="/">CDPSgram</a></h1>
 </div>
 <div id="container">
-    <div id="nav-bar">
-        <ul>
-            <li><a href="/photos">My photos</a></li>
-            <li><a href="/photos/new">Upload new photo</a></li>
-        </ul>
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="layout.ejs">CDPSgram</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll">
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="/photos">Mis fotos</a>
+                </li>
+                <li>
+                    <a href="/photos/new">Subir foto</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
+</nav>
     <div id="container-body"><%- body %></div>
 </div>
 
