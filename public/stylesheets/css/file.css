@@ -231,4 +231,11 @@ footer{
     color:rgba(75,50,34,0.99);
 }
 
+.formulario{
+    background-color: rgba(215,194,164,0.99);
+    text-align: center;
+    margin-top: 50px;
+    padding:300px;
+}
+
 
