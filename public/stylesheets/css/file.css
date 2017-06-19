@@ -233,7 +233,13 @@ footer{
 
 .formulario{
     background-color: rgba(215,194,164,0.99);
-    margin-top: 50px;
+    margin-top: 0px;
+    padding:250px;
+}
+
+.borrar{
+	background-color: rgba(215,194,164,0.99);
+	margin-top: 0px;
     padding:250px;
 }
 
